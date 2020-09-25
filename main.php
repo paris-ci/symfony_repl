@@ -1,2 +1,3 @@
 <?php
-echo "Hello, world!";
+$output = shell_exec("bash ./start.sh");
+?>
